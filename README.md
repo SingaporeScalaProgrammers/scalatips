@@ -1,10 +1,10 @@
-Scala Tips
-==========
+#Scala Tips
 
 This is the repository for top tips for writing more awesome Scala by the Singapore Scala Programmers. Check us out at http://www.meetup.com/Singapore-Scala-Programmers.
 
-Tips
-----
+##Tips
+
+###Use option to wrap up anything that could possibly return null.
 
 If you initialise `Option` with `null` you get a `None`. This is really useful to wrap up existing java apis that insist on returning null. For example:
 
